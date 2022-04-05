@@ -2,6 +2,7 @@ name: "my-website"
 output_dir: "docs"
 navbar:
   title: "JSC370 Final Project"
+  author: "Chloe Nguyen"
   left:
     - text: "Home"
       href: index.html
