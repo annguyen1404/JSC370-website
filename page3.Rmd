@@ -49,9 +49,9 @@ opts_chunk$set(
 
 <br>
 
-## First step
+## Step 11: Source processing code
 
-First I will source any necessary code, e.g. `process_covid_data.R`:
+Source necessary code (`process_covid_data.R`):
 
 ```{r load-data}
 source("process_COVID_data.R")
@@ -59,11 +59,9 @@ source("process_COVID_data.R")
 
 <br>
 
-## Second step
+## Step 12: Add code for visuals
 
-Then I will add some code to create the **plotly** figures
-
-Note: You need to name each code chunk, like this one: `plot1`
+Using **plotly** for figures
 
 ```{r plot1, class.source="code-r-small"}
 
@@ -95,9 +93,9 @@ p2_scatter <- cv_states_today_scatter %>%
 
 <br>
 
-## Third step {.tabset}
+## Step 13: Display figures in tabs {.tabset}
 
-Create tabs to display each figure
+Displaying figures with tabs
 
 ### Scatterplot: with DC
 
