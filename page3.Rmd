@@ -1,6 +1,6 @@
 ---
 title: "JSC370 Final Project"
-author: "Your Name"
+author: "Chloe Nguyen"
 output: 
     html_document:
         toc: TRUE
@@ -9,7 +9,7 @@ output:
 
 <br>
 
-This is my JSC370 Final Project website. I will showcase a few interactive visuals here.
+Lab 12 visuals.
 
 <br>
 
